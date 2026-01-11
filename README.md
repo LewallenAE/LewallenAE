@@ -64,7 +64,7 @@ I'm driven by the challenge of creating AI that not only works but excels in rea
 
 Let's connect! I'm open to collaborations, opportunities at top AI labs like xAI, OpenAI, Anthropic, or Google DeepMind, or just chatting about the future of AI.
 
-- **Email**: your.email@example.com
+- **Email**: lewallenae@mail.com- 
 - **LinkedIn**: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-linkedin-profile)
 - **GitHub**: [github.com/LewallenAE](https://github.com/LewallenAE)
 - **Portfolio/Website**: [yourwebsite.com](https://yourwebsite.com) (if applicable)

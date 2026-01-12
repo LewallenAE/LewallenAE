@@ -1,76 +1,65 @@
 # Anthony Lewallen
+**Full-Stack AI Engineer (Python • Systems • EvalOps/RLHF Tooling)**
 
-**Senior Full-Stack AI Engineer**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/your-linkedin-profile)  
-[![Twitter/X](https://img.shields.io/badge/Twitter-Follow-black?style=flat&logo=twitter)](https://twitter.com/your-twitter-handle)  
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:your.email@example.com)
-
----
-
-## About Me
-
-I'm Anthony Lewallen, a seasoned Senior Full-Stack AI Engineer with a passion for building scalable AI systems from the ground up. With over 3000+ hours dedicated to Reinforcement Learning from Human Feedback (RLHF), I've honed my expertise in fine-tuning AI models to deliver human-aligned, high-performance results. My background spans Python engineering, full-stack development, and cutting-edge AI innovations, enabling me to tackle complex problems in machine learning, natural language processing, and beyond.
-
-I'm driven by the challenge of creating AI that not only works but excels in real-world applications. Whether it's architecting evaluation platforms or developing conversational AI from scratch, I thrive on turning ideas into impactful solutions.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/anthony-lewallen)
+[![Email](https://img.shields.io/badge/Email-anthonylewallen.dev%40gmail.com-red?style=flat&logo=gmail)](mailto:anthonylewallen.dev@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-LewallenAE-black?style=flat&logo=github)](https://github.com/LewallenAE)
 
 ---
 
-## Key Highlights
+## What I do
+I build **production-grade AI evaluation and data-quality tooling**—the systems that make models and AI products reliable:
+- dataset validation + anomaly detection
+- evaluation harnesses + repeatable metrics
+- APIs/CLIs + storage + CI gates
+- performance-minded pipelines (batching, streaming, profiling)
 
-- **RLHF Expertise**: Over 3000+ hours of hands-on experience in Reinforcement Learning from Human Feedback, optimizing models for safety, alignment, and efficiency. I've applied RLHF techniques to enhance model behavior in diverse scenarios, ensuring robust and ethical AI deployments.
-  
-- **Eval Platform Creator**: Designed and implemented a comprehensive evaluation platform for AI models, streamlining testing, benchmarking, and performance analysis. This tool has been instrumental in iterating on AI systems with data-driven insights.
-
-- **Ground Zero ChatGPT (Built from Scratch)**: Developed a fully custom conversational AI model akin to ChatGPT, starting from foundational architectures. This project involved everything from data preprocessing and model training to deployment, showcasing my end-to-end AI engineering capabilities.
-
----
-
-## Skills
-
-### Technical Skills
-- **Languages**: Python (Expert), JavaScript, TypeScript, SQL
-- **AI/ML Frameworks**: TensorFlow, PyTorch, Hugging Face Transformers, LangChain
-- **Full-Stack Development**: React, Node.js, Django/Flask, Docker, Kubernetes
-- **Tools & Platforms**: Git, AWS/GCP/Azure, CI/CD Pipelines, Jupyter Notebooks
-- **Specializations**: RLHF, NLP, Model Evaluation, Prompt Engineering, Scalable AI Infrastructure
-
-### Soft Skills
-- Problem-Solving & Innovation
-- Collaborative Team Player
-- Strong Communication for Technical & Non-Technical Audiences
+I’ve logged **3,000+ hours** doing RLHF/evals work and I’m translating that experience into **engineered systems**.
 
 ---
 
-## Projects
+## Featured Projects
 
-- **[Eval Platform](https://github.com/LewallenAE/eval-platform)**: An open-source tool for AI model evaluation, featuring automated metrics, visualization dashboards, and integration with popular ML frameworks. (Link to your repo if applicable)
+### RLHF Data Quality System
+A signal-based toolkit for auditing preference datasets (duplicates, formatting/pathologies, refusal bias, readability, etc.), designed with a “real pipeline” mindset: logs, tests, storage, and repeatable runs.
+- **Signals framework** (extensible detectors)
+- **SQLite results store** (initial prototyping)
+- **PostgreSQL** (planned for production + long-term storage)
+- **CLI + API surface**
+- **CI-friendly**: intended to block bad data before training
 
-- **[Ground Zero ChatGPT](https://github.com/LewallenAE/ground-zero-chatgpt)**: A from-scratch implementation of a chatbot leveraging transformer architectures, trained with RLHF for improved response quality. Includes full codebase, training scripts, and deployment guides.
+→ Repo: **https://github.com/LewallenAE/rlhf-data-quality**
 
-- **Other Contributions**: Active in open-source AI communities, with contributions to RLHF libraries and full-stack AI applications. Check my repositories for more!
+### Ground-Zero-GPT (from-scratch GPT-style Transformer in PyTorch)
+Tokenizer → embeddings → self-attention → training loop, with notes focused on internals (not API wrapping).
+→ Repo: **https://github.com/LewallenAE/Ground-Zero-GPT**
 
 ---
 
-## Experience
+## Tech I ship with
+**Languages:** Python, TypeScript/JavaScript, Java, SQL  
+**ML/LLM:** PyTorch (transformers from scratch), Hugging Face (selective)  
+**Agentic workflows:** LangGraph (selective)  
+**Backend:** FastAPI, REST, auth patterns, background jobs  
+**Data/Infra:** SQLite/Postgres, Docker, GitHub Actions  
 
-- **Senior Full-Stack AI Engineer** (Current Role / Independent Projects): Leading AI initiatives, from prototype to production. Focused on RLHF-driven enhancements and full-stack integrations.
+> I keep this list intentionally tight: if it’s listed here, I can whiteboard it and defend tradeoffs.
 
-- **Previous Roles**: Python Engineer with emphasis on backend systems, AI model development, and cross-functional engineering teams. (Add specifics if desired)
+---
+
+## How I build
+- Vertical slices over “big rewrites”
+- Interfaces + invariants first (validation is not optional)
+- Tests that prove behavior
+- Logging/metrics as first-class citizens
+
+---
+
+## Open to
+Applied Evals • EvalOps • Data Quality Engineering • Backend SWE • ML Systems (evaluation/reliability)
 
 ---
 
 ## Contact
-
-Let's connect! I'm open to collaborations, opportunities at top AI labs like xAI, OpenAI, Anthropic, or Google DeepMind, or just chatting about the future of AI.
-
-- **Email**: lewallenae@mail.com- 
-- **LinkedIn**: [linkedin.com/in/your-profile](https://www.linkedin.com/in/your-linkedin-profile)
-- **GitHub**: [github.com/LewallenAE](https://github.com/LewallenAE)
-- **Portfolio/Website**: [yourwebsite.com](https://yourwebsite.com) (if applicable)
-
-Feel free to star this repo or reach out—I'd love to hear from you!
-
----
-
-*Last Updated: January 2026*## 
+- Email: **anthonylewallen.dev@gmail.com**
+- LinkedIn: **https://www.linkedin.com/in/anthony-lewallen**

@@ -19,7 +19,7 @@ I’ve logged **3,000+ hours** doing RLHF/evals work and I’m translating that 
 ---
 
 ## Featured Projects
-
+## (In Progress)
 ### RLHF Data Quality System
 A signal-based toolkit for auditing preference datasets (duplicates, formatting/pathologies, refusal bias, readability, etc.), designed with a “real pipeline” mindset: logs, tests, storage, and repeatable runs.
 - **Signals framework** (extensible detectors)

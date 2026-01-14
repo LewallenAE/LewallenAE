@@ -62,5 +62,5 @@ Applied Evals • EvalOps • Data Quality Engineering • Backend SWE • ML Sy
 ---
 
 ## Contact
-- Email: **anthonylewallen.dev@gmail.com**
+- Email: **lewallenae@gmail.com**, **anthonylewallen.dev@gmail.com**
 - LinkedIn: **https://www.linkedin.com/in/anthony-lewallen**

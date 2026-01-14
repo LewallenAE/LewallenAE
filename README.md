@@ -30,6 +30,7 @@ A signal-based toolkit for auditing preference datasets (duplicates, formatting/
 
 → Repo: **https://github.com/LewallenAE/rlhf-data-quality**
 
+## (In Progress)
 ### Ground-Zero-GPT (from-scratch GPT-style Transformer in PyTorch)
 Tokenizer → embeddings → self-attention → training loop, with notes focused on internals (not API wrapping).
 → Repo: **https://github.com/LewallenAE/Ground-Zero-GPT**

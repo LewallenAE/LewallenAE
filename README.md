@@ -44,7 +44,6 @@ Tokenizer → embeddings → self-attention → training loop, with notes focuse
 **Backend:** FastAPI, REST, auth patterns, background jobs  
 **Data/Infra:** SQLite/Postgres, Docker, GitHub Actions  
 
-> I keep this list intentionally tight: if it’s listed here, I can whiteboard it and defend tradeoffs.
 
 ---
 

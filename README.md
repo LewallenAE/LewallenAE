@@ -1,5 +1,5 @@
 # Anthony Lewallen
-**Full-Stack AI Engineer (Python • Systems • EvalOps/RLHF Tooling)**
+**AI Research Engineer (Python • Systems • EvalOps/RLHF Tooling)**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/anthony-lewallen)
 [![Email](https://img.shields.io/badge/Email-anthonylewallen.dev%40gmail.com-red?style=flat&logo=gmail)](mailto:anthonylewallen.dev@gmail.com)

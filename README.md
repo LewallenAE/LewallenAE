@@ -1,65 +1,73 @@
 # Anthony Lewallen
-**AI Research Engineer (Python • Systems • EvalOps/RLHF Tooling)**
+**AI Research Engineer** — Python • Systems • EvalOps/RLHF Tooling
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/anthony-lewallen)
-[![Email](https://img.shields.io/badge/Email-anthonylewallen.dev%40gmail.com-red?style=flat&logo=gmail)](mailto:anthonylewallen.dev@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-LewallenAE-black?style=flat&logo=github)](https://github.com/LewallenAE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-lewallen)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:lewallenae@gmail.com)
 
 ---
 
-## What I do
-I build **production-grade AI evaluation and data-quality tooling**—the systems that make models and AI products reliable:
-- dataset validation + anomaly detection
-- evaluation harnesses + repeatable metrics
+## What I Do
+
+I build production-grade AI evaluation and data-quality tooling—the systems that make models and AI products reliable:
+
+- Dataset validation + anomaly detection
+- Evaluation harnesses + repeatable metrics
 - APIs/CLIs + storage + CI gates
-- performance-minded pipelines (batching, streaming, profiling)
-
-I’ve logged **3,000+ hours** doing RLHF/evals work and I’m translating that experience into **engineered systems**.
+- Performance-minded pipelines (batching, streaming, profiling)
 
 ---
 
-## Featured Projects
-## (In Progress)
+## Open Source Contributions
+
+| Project | Description | Link |
+|---------|-------------|------|
+| **NLWeb** (Microsoft) | Implemented CI/CD pipeline — linting, testing matrix, secrets scanning, Dependabot | [PR #397](https://github.com/nlweb-ai/NLWeb/pull/397) |
+
+---
+
+## Projects
+
 ### RLHF Data Quality System
-A signal-based toolkit for auditing preference datasets (duplicates, formatting/pathologies, refusal bias, readability, etc.), designed with a “real pipeline” mindset: logs, tests, storage, and repeatable runs.
-- **Signals framework** (extensible detectors)
-- **SQLite results store** (initial prototyping)
-- **PostgreSQL** (planned for production + long-term storage)
-- **CLI + API surface**
-- **CI-friendly**: intended to block bad data before training
+A signal-based toolkit for auditing preference datasets (duplicates, formatting issues, refusal bias, readability), designed for real pipelines.
 
-→ Repo: **https://github.com/LewallenAE/rlhf-data-quality**
+- Extensible signals framework
+- SQLite → PostgreSQL storage path
+- CLI + API surface
+- CI-friendly: blocks bad data before training
 
-## (In Progress)
-### Ground-Zero-GPT (from-scratch GPT-style Transformer in PyTorch)
-Tokenizer → embeddings → self-attention → training loop, with notes focused on internals (not API wrapping).
-→ Repo: **https://github.com/LewallenAE/Ground-Zero-GPT**
+→ [github.com/LewallenAE/rlhf-data-quality](https://github.com/LewallenAE/rlhf-data-quality)
 
----
+### Ground-Zero-GPT
+From-scratch GPT-style Transformer in PyTorch. Tokenizer → embeddings → self-attention → training loop.
 
-## Tech I ship with
-**Languages:** Python, TypeScript/JavaScript, Java, SQL  
-**ML/LLM:** PyTorch (transformers from scratch), Hugging Face (selective)  
-**Agentic workflows:** LangGraph (selective)  
-**Backend:** FastAPI, REST, auth patterns, background jobs  
-**Data/Infra:** SQLite/Postgres, Docker, GitHub Actions  
-
+→ [github.com/LewallenAE/Ground-Zero-GPT](https://github.com/LewallenAE/Ground-Zero-GPT)
 
 ---
 
-## How I build
-- Vertical slices over “big rewrites”
-- Interfaces + invariants first (validation is not optional)
+## Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| **Languages** | Python, TypeScript/JavaScript, Java, SQL |
+| **ML/LLM** | PyTorch, Hugging Face |
+| **Backend** | FastAPI, REST, auth patterns |
+| **Data/Infra** | SQLite, PostgreSQL, Docker, GitHub Actions |
+
+---
+
+## How I Build
+
+- Vertical slices over big rewrites
+- Interfaces + invariants first
 - Tests that prove behavior
 - Logging/metrics as first-class citizens
 
 ---
 
-## Open to
-Applied Evals • EvalOps • Data Quality Engineering • Backend SWE • ML Systems (evaluation/reliability)
+## Open To
+
+Applied Evals • EvalOps • Data Quality Engineering • Backend SWE • ML Systems
 
 ---
 
-## Contact
-- Email: **lewallenae@gmail.com**, **anthonylewallen.dev@gmail.com**
-- LinkedIn: **https://www.linkedin.com/in/anthony-lewallen**
+**Email:** anthonylewallen.dev@gmail.com

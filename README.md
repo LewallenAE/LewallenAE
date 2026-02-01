@@ -28,6 +28,7 @@ I build production-grade AI evaluation and data-quality tooling—the systems th
 ## Projects
 
 ### RLHF Data Quality System
+
 A signal-based toolkit for auditing preference datasets (duplicates, formatting issues, refusal bias, readability), designed for real pipelines.
 
 - Extensible signals framework
@@ -36,11 +37,6 @@ A signal-based toolkit for auditing preference datasets (duplicates, formatting 
 - CI-friendly: blocks bad data before training
 
 → [github.com/LewallenAE/rlhf-data-quality](https://github.com/LewallenAE/rlhf-data-quality)
-
-### Ground-Zero-GPT
-From-scratch GPT-style Transformer in PyTorch. Tokenizer → embeddings → self-attention → training loop.
-
-→ [github.com/LewallenAE/Ground-Zero-GPT](https://github.com/LewallenAE/Ground-Zero-GPT)
 
 ---
 

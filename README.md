@@ -36,7 +36,7 @@ A signal-based toolkit for auditing preference datasets (duplicates, formatting 
 - CLI + API surface
 - CI-friendly: blocks bad data before training
 
-→ [github.com/LewallenAE/rlhf-data-quality](https://github.com/LewallenAE/rlhf-eval)
+→ [github.com/LewallenAE/rlhf-eval](https://github.com/LewallenAE/rlhf-eval)
 
 ---
 

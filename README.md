@@ -1,19 +1,34 @@
 # Anthony Lewallen
+
 **AI Research Engineer** — Python • Systems • EvalOps/RLHF Tooling
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-lewallen)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:lewallenae@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anthonylewallen.dev@gmail.com)
 
 ---
 
-## What I Do
+## My Typical Weekend
 
-I build production-grade AI evaluation and data-quality tooling—the systems that make models and AI products reliable:
+**Friday:** "I should learn RLHF infrastructure"
 
-- Dataset validation + anomaly detection
-- Evaluation harnesses + repeatable metrics
-- APIs/CLIs + storage + CI gates
-- Performance-minded pipelines (batching, streaming, profiling)
+**Sunday night:**
+- ✅ 6 data quality detectors running on 160K preference pairs
+- ✅ PostgreSQL pipeline storing every signal
+- ✅ Trained two reward models (clean vs unfiltered data)
+- ✅ Orchestrated 6 LLM agents in parallel to build the system
+- ✅ Started a GPT implementation from scratch
+
+I don't do tutorials. I ship.
+
+---
+
+## Projects
+
+| Project | What It Does | Stack |
+|---------|--------------|-------|
+| [**RLHF Data Quality System**](https://github.com/LewallenAE/rlhf-eval) | Detects problematic preference pairs in RLHF training data. Found 12,693 flagged examples (7.9%) in Anthropic's HH-RLHF dataset. | PyTorch, PostgreSQL, sentence-transformers |
+| [**GPT From Scratch**](https://github.com/LewallenAE/generatively_pretrained_transformer) | Transformer implementation from bigram → attention → CUDA kernels. Training on War and Peace, not TinyShakespeare. | PyTorch, CUDA |
+| [**Multi-Agent Orchestration**](https://github.com/LewallenAE/rlhf-eval) | 6 Claude agents building production code in parallel. Shared contracts, coordination protocols. I played Overlord. | Claude API, Python |
 
 ---
 
@@ -25,18 +40,11 @@ I build production-grade AI evaluation and data-quality tooling—the systems th
 
 ---
 
-## Projects
+## Background
 
-### RLHF Data Quality System
+3 years as an RLHF contractor. Top 1% at Alignerr. I've created rubrics, graded models, and seen exactly how preference data breaks.
 
-A signal-based toolkit for auditing preference datasets (duplicates, formatting issues, refusal bias, readability), designed for real pipelines.
-
-- Extensible signals framework
-- SQLite → PostgreSQL storage path
-- CLI + API surface
-- CI-friendly: blocks bad data before training
-
-→ [github.com/LewallenAE/rlhf-eval](https://github.com/LewallenAE/rlhf-eval)
+Now I build systems to catch those problems automatically.
 
 ---
 
@@ -45,24 +53,25 @@ A signal-based toolkit for auditing preference datasets (duplicates, formatting 
 | Category | Tools |
 |----------|-------|
 | **Languages** | Python, TypeScript/JavaScript, Java, SQL |
-| **ML/LLM** | PyTorch, Hugging Face |
-| **Backend** | FastAPI, REST, auth patterns |
-| **Data/Infra** | SQLite, PostgreSQL, Docker, GitHub Actions |
+| **ML/LLM** | PyTorch, Hugging Face, sentence-transformers |
+| **Backend** | FastAPI, REST, PostgreSQL, SQLite |
+| **Infra** | Docker, GitHub Actions, Google Colab |
 
 ---
 
 ## How I Build
 
-- Vertical slices over big rewrites
-- Interfaces + invariants first
+- Ship first, polish later
+- Interfaces + invariants before implementation
 - Tests that prove behavior
 - Logging/metrics as first-class citizens
+- If it takes more than a weekend, break it down
 
 ---
 
 ## Open To
 
-Applied Evals • EvalOps • Data Quality Engineering • Backend SWE • ML Systems
+Research Engineer • Applied Evals • EvalOps • Data Quality Engineering • ML Systems
 
 ---
 

@@ -57,7 +57,7 @@ Now I build systems to catch those problems automatically.
 | **Languages** | Python, TypeScript/JavaScript, Java, SQL |
 | **ML/LLM** | PyTorch, Hugging Face, sentence-transformers |
 | **Backend** | FastAPI, REST APIs, PostgreSQL, SQLite |
-| **Infra** | Docker, GitHub Actions, Google Colab |
+| **Infra** | Docker, GitHub Actions, Google Colab, Linux |
 
 ---
 

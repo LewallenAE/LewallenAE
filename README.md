@@ -28,7 +28,7 @@ I don't do tutorials. I ship.
 |---------|--------------|-------|
 | [**RLHF Data Quality System**](https://github.com/LewallenAE/rlhf-eval) | Detects problematic preference pairs in RLHF training data. Found 12,693 flagged examples (7.9%) in Anthropic's HH-RLHF dataset. | PyTorch, PostgreSQL, sentence-transformers |
 | [**GPT From Scratch**](https://github.com/LewallenAE/generatively_pretrained_transformer) | Transformer implementation from bigram → attention → CUDA kernels. Training on War and Peace, not TinyShakespeare. | PyTorch, CUDA |
-| [**Multi-Agent Orchestration**](https://github.com/LewallenAE/rlhf-eval) | 6 Claude agents building production code in parallel. Shared contracts, coordination protocols. I played Overlord. | Claude API, Python |
+| [**Multi-Agent Orchestration**](https://github.com/LewallenAE/agentic_swarm) | First Iteration 2 x Claude, Gemini, and Codex agentsvbuilding production code in parallel. Shared contracts, coordination protocols. I played Overlord. | Claude, Gemini, Codex API, Python |
 
 ---
 

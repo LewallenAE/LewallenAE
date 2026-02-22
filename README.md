@@ -44,7 +44,7 @@ I don't do tutorials. I ship.
 
 ## Background
 
-3 years as an RLHF contractor. Top 1% at Alignerr. I've created rubrics, graded models, and seen exactly how preference data breaks.
+3 years as an RLHF contractor. Selected into Alignerr’s elite “Alignerrd” group of top-tier programmers after standout evaluation performance. I’ve created rubrics, graded models, and seen exactly how preference data breaks.
 
 Now I build systems to catch those problems automatically.
 

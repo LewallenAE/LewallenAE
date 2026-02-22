@@ -3,6 +3,7 @@
 **AI Research Engineer** — Python • Systems • EvalOps/RLHF Tooling
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-lewallen)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/LewallenAE)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anthonylewallen.dev@gmail.com)
 
 ---
@@ -28,7 +29,7 @@ I don't do tutorials. I ship.
 |---------|--------------|-------|
 | [**RLHF Data Quality System**](https://github.com/LewallenAE/rlhf-eval) | Detects problematic preference pairs in RLHF training data. Found 12,693 flagged examples (7.9%) in Anthropic's HH-RLHF dataset. | PyTorch, PostgreSQL, sentence-transformers |
 | [**GPT From Scratch**](https://github.com/LewallenAE/generatively_pretrained_transformer) | Transformer implementation from bigram → attention → CUDA kernels. Training on War and Peace, not TinyShakespeare. | PyTorch, CUDA |
-| [**Multi-Agent Orchestration**](https://github.com/LewallenAE/agentic_swarm) | First Iteration 2 x Claude, Gemini, and Codex agentsvbuilding production code in parallel. Shared contracts, coordination protocols. I played Overlord. | Claude, Gemini, Codex API, Python |
+| [**Multi-Agent Orchestration**](https://github.com/LewallenAE/agentic_swarm) | **First Iteration:**: A multi-agent coding system using 2x Claude, Gemini, and Codex agents to build production code in parallel with shared contracts and coordination protocols. I designed the orchestration and approval loop. | Claude, Gemini, Codex API, Python |
 
 ---
 
@@ -36,7 +37,7 @@ I don't do tutorials. I ship.
 
 | Project | Description | Link |
 |---------|-------------|------|
-| **NLWeb** (Microsoft) | Implemented CI/CD pipeline — linting, testing matrix, secrets scanning, Dependabot | [PR #397](https://github.com/nlweb-ai/NLWeb/pull/397) |
+| **NLWeb** (Microsoft Open Source) | Identified an explicity documented CI/CD gap/need in NLWEB and implemented said CI/CD pipeline — Ruff linting, mypy type checks, pytest matrix, Docker build validation, and Dependabot automation | [PR #397](https://github.com/nlweb-ai/NLWeb/pull/397) |
 
 ---
 
@@ -54,7 +55,7 @@ Now I build systems to catch those problems automatically.
 |----------|-------|
 | **Languages** | Python, TypeScript/JavaScript, Java, SQL |
 | **ML/LLM** | PyTorch, Hugging Face, sentence-transformers |
-| **Backend** | FastAPI, REST, PostgreSQL, SQLite |
+| **Backend** | FastAPI, REST APIs, PostgreSQL, SQLite |
 | **Infra** | Docker, GitHub Actions, Google Colab |
 
 ---

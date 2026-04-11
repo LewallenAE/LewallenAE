@@ -28,6 +28,7 @@ I don't do tutorials. I ship.
 
 | Project | What It Does | Stack |
 |---------|--------------|-------|
+| [**Java High-Frequency-Trading Engine**](https://github.com/LewallenAE/JavaHFT) | A high-frequency-trading platform created in Java. Order books, matching engines, low-latency patterns and systems design. | Java |
 | [**RLHF Data Quality System**](https://github.com/LewallenAE/rlhf-eval) | Detects problematic preference pairs in RLHF training data. Found 12,693 flagged examples (7.9%) in Anthropic's HH-RLHF dataset. | PyTorch, PostgreSQL, sentence-transformers |
 | [**GPT From Scratch**](https://github.com/LewallenAE/generatively_pretrained_transformer) | Transformer implementation from bigram → attention → CUDA kernels. Training on War and Peace, not TinyShakespeare. | PyTorch, CUDA |
 | [**Multi-Agent Orchestration**](https://github.com/LewallenAE/agentic_swarm) | **First iteration:** A multi-agent coding system using two Claude agents plus Gemini and Codex to build production code in parallel with shared contracts and coordination protocols. I designed the orchestration and approval loop. | Claude, Gemini, Codex API, Python |

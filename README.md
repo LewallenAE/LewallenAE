@@ -31,6 +31,7 @@ I don't do tutorials. I ship.
 | [**RLHF Data Quality System**](https://github.com/LewallenAE/rlhf-eval) | Detects problematic preference pairs in RLHF training data. Found 12,693 flagged examples (7.9%) in Anthropic's HH-RLHF dataset. | PyTorch, PostgreSQL, sentence-transformers |
 | [**GPT From Scratch**](https://github.com/LewallenAE/generatively_pretrained_transformer) | Transformer implementation from bigram → attention → CUDA kernels. Training on War and Peace, not TinyShakespeare. | PyTorch, CUDA |
 | [**Multi-Agent Orchestration**](https://github.com/LewallenAE/agentic_swarm) | **First iteration:** A multi-agent coding system using two Claude agents plus Gemini and Codex to build production code in parallel with shared contracts and coordination protocols. I designed the orchestration and approval loop. | Claude, Gemini, Codex API, Python |
+| [**Crystal Hollow Demo**](https://github.com/lewallenAE/crystal-hollows-demo) | **An old-school NES** inspired DEMO for a client as a proof-of-concept | Coded Entirely in Godot 4.6.2 |
 
 ---
 

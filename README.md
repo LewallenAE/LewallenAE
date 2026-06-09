@@ -66,6 +66,7 @@
 
   ### The University of Pennsylvania
   **Master of Science in Engineering — Artificial Intelligence** | In Progress
+  
   **Master of Applied Science — Software Systems** | In Progress
 
   ### American Public University
@@ -76,6 +77,7 @@
   ## Certifications
 
   **ISC2 Certified in Cybersecurity** | Certification Number: 2419262
+  
   **CompTIA Security+** | In Progress
 
   ---

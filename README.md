@@ -4,6 +4,7 @@
   **Full-Stack Software Engineer** — Applied ML · Security Engineering · Software Systems
 
   ## Education
+  
   ### The University of Pennsylvania
   **Master of Science Engineering - Aritificial Intelligence | in progress**
   
@@ -13,7 +14,9 @@
   **Bachelor of Science - Mathematics Operations Research | Summa Cum Laude**
 
   ## Certifications
+  
   ### ISC2 Certified in Cybersecurity | Certification Number: 2419262
+  
   ### CompTIA Sec+ | in progress
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-lewallen)

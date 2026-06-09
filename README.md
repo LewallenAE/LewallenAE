@@ -5,6 +5,7 @@
 
   ## The University of Pennsylvania
   **Master of Science Engineering - Aritificial Intelligence in progress**
+  
   **Master of Applied Science - Software Systems | in progress**
 
   ## American Public University

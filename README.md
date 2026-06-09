@@ -3,22 +3,6 @@
 
   **Full-Stack Software Engineer** — Applied ML · Security Engineering · Software Systems
 
-  ## Education
-  
-  ### The University of Pennsylvania
-  **Master of Science Engineering - Aritificial Intelligence | in progress**
-  
-  **Master of Applied Science - Software Systems | in progress**
-
-  ### American Public University
-  **Bachelor of Science - Mathematics Operations Research | Summa Cum Laude**
-
-  ## Certifications
-  
-  ### ISC2 Certified in Cybersecurity | Certification Number: 2419262
-  
-  ### CompTIA Sec+ | in progress
-
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-lewallen)
   [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anthonylewallen.dev@gmail.com)
 
@@ -90,6 +74,24 @@
 
   I use AI as a force multiplier — scaffolding, boilerplate, rubber ducking — but the architecture, the decisions, and the hard parts are mine. The goal is to become the best human
   programmer I can be.
+
+  ---
+
+  ## Education
+  
+  ### The University of Pennsylvania
+  **Master of Science Engineering - Aritificial Intelligence | in progress**
+  
+  **Master of Applied Science - Software Systems | in progress**
+
+  ### American Public University
+  **Bachelor of Science - Mathematics Operations Research | Summa Cum Laude**
+
+  ## Certifications
+  
+  ### ISC2 Certified in Cybersecurity | Certification Number: 2419262
+  
+  ### CompTIA Sec+ | in progress
 
   ---
 

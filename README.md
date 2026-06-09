@@ -76,9 +76,9 @@
 
   ## Certifications
 
-  **ISC2 Certified in Cybersecurity** | Certification Number: 2419262
+  -- **ISC2 Certified in Cybersecurity** | Certification Number: 2419262
   
-  **CompTIA Security+** | In Progress
+  -- **CompTIA Security+** | In Progress
 
   ---
 

@@ -1,82 +1,82 @@
-# Anthony Lewallen
+  ---
+  # Anthony Lewallen
 
-**AI Research Engineer** — Python • Systems • EvalOps/RLHF Tooling
+  **Full-Stack Software Engineer** — Applied ML · Security Engineering · Software Systems
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-lewallen)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anthonylewallen.dev@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-lewallen)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anthonylewallen.dev@gmail.com)
 
-I build RLHF evaluation systems, multi-agent orchestration workflows, and production-minded tooling for LLM post-training.
+  I build things end-to-end — ML inference engines in Go, RLHF data pipelines, security tooling, game engines from scratch. I don't stop at the model.
 
----
+  ---
 
-## My Typical Weekend
+  ## Recently
 
-**Friday:** "I should learn RLHF infrastructure"
+  Praetorian reached out. I found their ML Binaries challenge while going through the site and decided to beat it before applying. Took two days.
 
-**Sunday night:**
-- ✅ 6 data quality detectors running on 160K preference pairs
-- ✅ PostgreSQL pipeline storing every signal
-- ✅ Trained two reward models (clean vs unfiltered data)
-- ✅ Orchestrated 6 LLM agents in parallel to build an RLHF data-quality pipeline
-- ✅ Started a GPT implementation from scratch
+  Then I ported the entire sklearn inference pipeline to Go — no Python runtime, no ML dependencies. Weights exported to a compact binary format, loaded at startup via `go:embed`,
+  running in-process on AWS EC2 with a React/TypeScript live dashboard streaming predictions in real time.
 
-I don't do tutorials. I ship.
+  **500 consecutive correct. 0 wrong. Solved 11 times in a row.**
 
----
+  ---
 
-## Featured Projects
+  ## Featured Projects
 
-| Project | What It Does | Stack |
-|---------|--------------|-------|
-| [**Java High-Frequency-Trading Engine**](https://github.com/LewallenAE/JavaHFT) | A high-frequency-trading platform created in Java. Order books, matching engines, low-latency patterns and systems design. | Java |
-| [**RLHF Data Quality System**](https://github.com/LewallenAE/rlhf-eval) | Detects problematic preference pairs in RLHF training data. Found 12,693 flagged examples (7.9%) in Anthropic's HH-RLHF dataset. | PyTorch, PostgreSQL, sentence-transformers |
-| [**GPT From Scratch**](https://github.com/LewallenAE/generatively_pretrained_transformer) | Transformer implementation from bigram → attention → CUDA kernels. Training on War and Peace, not TinyShakespeare. | PyTorch, CUDA |
-| [**Multi-Agent Orchestration**](https://github.com/LewallenAE/agentic_swarm) | **First iteration:** A multi-agent coding system using two Claude agents plus Gemini and Codex to build production code in parallel with shared contracts and coordination protocols. I designed the orchestration and approval loop. | Claude, Gemini, Codex API, Python |
-| [**Crystal Hollow Demo**](https://github.com/lewallenAE/crystal-hollows-demo) | **An old-school NES** inspired DEMO for a client as a proof-of-concept | Coded Entirely in Godot 4.6.2 |
+  | Project | What It Does | Stack |
+  |---------|--------------|-------|
+  | [**Binary Architecture Classifier**](https://github.com/LewallenAE/go-binary-classifier) | In-process Go inference engine classifying PE binaries by CPU architecture. Beats the
+  Praetorian ML challenge — 500 consecutive correct, 0 wrong, 11 solves in a row. Live on EC2. | Go, React, TypeScript, AWS |
+  | [**RLHF Eval**](https://github.com/LewallenAE/rlhf-eval) | Data quality pipeline for RLHF training data. Seven detectors flagged 12,693 problematic preference pairs (7.9%) in
+  Anthropic's HH-RLHF dataset. Trained competing reward models on clean vs. unfiltered data. | Python, PyTorch, FastAPI, PostgreSQL, Docker |
+  | [**ScratchLM**](https://github.com/LewallenAE/ScratchLM) | GPT-2 (124M) built from scratch — custom LayerNorm, GELU, causal multi-head self-attention, transformer blocks with
+  pre-norm residual connections. No high-level abstractions. | Python, PyTorch |
+  | [**Crypto Microstructure Research**](https://github.com/LewallenAE/crypto_microstructure_research) | Statistical arbitrage research on crypto markets. ADF cointegration tests
+  identified tradeable pairs (LINK-ADA, OP-PEPE) with 20–60 hour mean-reversion half-lives. Z-score signal generation and backtesting. | Python, pandas, statsmodels |
+  | [**Crystal Hollows**](https://github.com/lewallenAE/crystal-hollows-demo) | Full 2D action-RPG demo built from scratch with zero imported assets. All rendering is programmatic via
+  Godot's `_draw()` API — procedural maps, multi-phase boss AI, custom dialogue system. | Godot 4, GDScript |
+  | [**Java HFT Engine**](https://github.com/LewallenAE/JavaHFT) | High-frequency trading platform — order books, matching engines, low-latency systems design. | Java |
 
----
+  ---
 
-## Open Source Contributions
+  ## Open Source
 
-| Project | Description | Link |
-|---------|-------------|------|
-| **NLWeb** (Microsoft Open Source) | Identified an explicitly documented CI/CD gap in NLWeb and implemented the pipeline (Ruff linting, mypy checks, pytest matrix, Docker validation, Dependabot automation). | [PR #397](https://github.com/nlweb-ai/NLWeb/pull/397) |
+  | Project | Description | Link |
+  |---------|-------------|------|
+  | **NLWeb** (Microsoft) | Identified a CI/CD gap and implemented the pipeline — Ruff linting, mypy checks, pytest matrix, Docker validation, Dependabot automation. | [PR
+  #397](https://github.com/nlweb-ai/NLWeb/pull/397) |
 
----
+  ---
 
-## Background
+  ## Background
 
-3 years as an RLHF contractor. Selected into Alignerr’s elite “Alignerrd” group of top-tier programmers after standout evaluation performance. I’ve created rubrics, graded models, and seen exactly how preference data breaks.
+  3 years as an RLHF contractor. Selected into Alignerr's elite tier after standout evaluation performance. Built rubrics, graded models, and watched exactly how preference data breaks
+  — then built systems to catch those problems automatically.
 
-Now I build systems to catch those problems automatically.
+  B.S. Mathematics — Operations Research, Summa Cum Laude, 2024.
+  Pursuing dual master's degrees at Penn (MAS-CS AI + MSE-AI).
 
----
+  ---
 
-## Tech Stack
+  ## Stack
 
-| Category | Tools |
-|----------|-------|
-| **Languages** | Python, TypeScript/JavaScript, Java, SQL |
-| **ML/LLM** | PyTorch, Hugging Face, sentence-transformers |
-| **Backend** | FastAPI, REST APIs, PostgreSQL, SQLite |
-| **Infra** | Docker, GitHub Actions, Google Colab, Linux |
+  | | |
+  |--|--|
+  | **Languages** | Go, Python, TypeScript, Java, GDScript, SQL |
+  | **ML** | PyTorch, scikit-learn, sentence-transformers, Hugging Face |
+  | **Backend** | FastAPI, REST, PostgreSQL, SQLite |
+  | **Frontend** | React, Vite, Tailwind CSS |
+  | **Infra** | AWS EC2, Docker, GitHub Actions, Linux |
 
----
+  ---
 
-## How I Build
+  I don't do tutorials. I ship.
 
-- Ship first, polish later
-- Interfaces + invariants before implementation
-- Tests that prove behavior
-- Logging/metrics as first-class citizens
-- If it takes more than a weekend, break it down
+  I use AI as a force multiplier — scaffolding, boilerplate, rubber ducking — but the architecture, the decisions, and the hard parts are mine. The goal is to become the best human
+  programmer I can be.
 
----
+  ---
 
-## Open To
+  **Open to:** Full-Stack Engineering · ML Systems · Security Engineering · Applied Research
 
-Research Engineer • Applied Evals • EvalOps • Data Quality Engineering • ML Systems
-
----
-
-**Email:** anthonylewallen.dev@gmail.com
+  **Email:** anthonylewallen.dev@gmail.com

@@ -65,12 +65,12 @@
   ## Education
 
   ### The University of Pennsylvania
-  **Master of Science in Engineering — Artificial Intelligence** | In Progress
+  - **Master of Science in Engineering — Artificial Intelligence** | In Progress
   
-  **Master of Applied Science — Software Systems** | In Progress
+  - **Master of Applied Science — Software Systems** | In Progress
 
   ### American Public University
-  **Bachelor of Science — Mathematics, Operations Research** | Summa Cum Laude, 2024
+  - **Bachelor of Science — Mathematics, Operations Research** | Summa Cum Laude, 2024
 
   ---
 

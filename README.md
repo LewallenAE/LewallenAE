@@ -1,5 +1,4 @@
-  ---
-  # Anthony Lewallen
+# Anthony Lewallen
 
   **Full-Stack Software Engineer** — Applied ML · Security Engineering · Software Systems
 
@@ -12,10 +11,13 @@
 
   ## Recently
 
-  Praetorian reached out. I found their ML Binaries challenge while going through the site and decided to beat it before applying. Took two days.
+  Praetorian reached out. I found their ML Binaries challenge while going through the site and decided to beat it before applying. Took two days. Then ported the full inference pipeline
+   to Go — live on EC2, solved 11 times in a row.
 
-  Then I ported the entire sklearn inference pipeline to Go — no Python runtime, no ML dependencies. Weights exported to a compact binary format, loaded at startup via `go:embed`,
-  running in-process on AWS EC2 with a React/TypeScript live dashboard streaming predictions in real time.
+  Lately: working through the Hack The Box Penetration Tester path, going deeper into low-level programming, and currently reading *Heavy Wizardry 101* by David Martínez Oliveira
+  (Pico).
+
+  The direction is clear — Go, systems, security. Getting as close to the metal as possible.
 
   **500 consecutive correct. 0 wrong. Solved 11 times in a row.**
 
@@ -48,16 +50,6 @@
 
   ---
 
-  ## Background
-
-  3 years as an RLHF contractor. Selected into Alignerr's elite tier after standout evaluation performance. Built rubrics, graded models, and watched exactly how preference data breaks
-  — then built systems to catch those problems automatically.
-
-  B.S. Mathematics — Operations Research, Summa Cum Laude, 2024.
-  Pursuing dual master's degrees at Penn (MAS-CS AI + MSE-AI).
-
-  ---
-
   ## Stack
 
   | | |
@@ -70,6 +62,24 @@
 
   ---
 
+  ## Education
+
+  ### The University of Pennsylvania
+  **Master of Science in Engineering — Artificial Intelligence** | In Progress
+  **Master of Applied Science — Software Systems** | In Progress
+
+  ### American Public University
+  **Bachelor of Science — Mathematics, Operations Research** | Summa Cum Laude, 2024
+
+  ---
+
+  ## Certifications
+
+  **ISC2 Certified in Cybersecurity** | Certification Number: 2419262
+  **CompTIA Security+** | In Progress
+
+  ---
+
   I don't do tutorials. I ship.
 
   I use AI as a force multiplier — scaffolding, boilerplate, rubber ducking — but the architecture, the decisions, and the hard parts are mine. The goal is to become the best human
@@ -77,24 +87,5 @@
 
   ---
 
-  ## Education
-  
-  ### The University of Pennsylvania
-  **Master of Science Engineering - Aritificial Intelligence | in progress**
-  
-  **Master of Applied Science - Software Systems | in progress**
-
-  ### American Public University
-  **Bachelor of Science - Mathematics Operations Research | Summa Cum Laude**
-
-  ## Certifications
-  
-  ### ISC2 Certified in Cybersecurity | Certification Number: 2419262
-  
-  ### CompTIA Sec+ | in progress
-
-  ---
-
   **Open to:** Full-Stack Engineering · ML Systems · Security Engineering · Applied Research
-
   **Email:** anthonylewallen.dev@gmail.com

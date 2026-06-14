@@ -9,26 +9,12 @@
 
   ---
 
-  ## Recently
-
-  Praetorian reached out. I found their ML Binaries challenge while going through the site and decided to beat it before applying. Took two days. Then ported the full inference pipeline
-   to Go — live on EC2, solved 11 times in a row.
-
-  Lately: working through the Hack The Box Penetration Tester path, going deeper into low-level programming, and currently reading *Heavy Wizardry 101* by David Martínez Oliveira
-  (Pico).
-
-  The direction is clear — Go, systems, security. Getting as close to the metal as possible.
-
-  **500 consecutive correct. 0 wrong. Solved 11 times in a row.**
-
   ---
 
   ## Featured Projects
 
   | Project | What It Does | Stack |
   |---------|--------------|-------|
-  | [**Binary Architecture Classifier**](https://github.com/LewallenAE/go-binary-classifier) | In-process Go inference engine classifying PE binaries by CPU architecture. Beats the
-  Praetorian ML challenge — 500 consecutive correct, 0 wrong, 11 solves in a row. Live on EC2. | Go, React, TypeScript, AWS |
   | [**RLHF Eval**](https://github.com/LewallenAE/rlhf-eval) | Data quality pipeline for RLHF training data. Seven detectors flagged 12,693 problematic preference pairs (7.9%) in
   Anthropic's HH-RLHF dataset. Trained competing reward models on clean vs. unfiltered data. | Python, PyTorch, FastAPI, PostgreSQL, Docker |
   | [**ScratchLM**](https://github.com/LewallenAE/ScratchLM) | GPT-2 (124M) built from scratch — custom LayerNorm, GELU, causal multi-head self-attention, transformer blocks with

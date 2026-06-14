@@ -1,6 +1,6 @@
 # Anthony Lewallen
 
-  **AI Evaluation Infrastructure Engineer | RLHF · Agent Evals · RL Environments · Model ReliabilityPython · Go · TypeScript · PostgreSQL
+  **AI Evaluation Infrastructure Engineer | RLHF · Agent Evals · RL Environments · Model ReliabilityPython · Go · TypeScript · PostgreSQL**
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-lewallen)
   [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anthonylewallen.dev@gmail.com)

@@ -1,6 +1,6 @@
 # Anthony Lewallen
 
-  **Full-Stack Software Engineer** — Applied ML · Security Engineering · Software Systems
+  **AI Evaluation Infrastructure Engineer | RLHF · Agent Evals · RL Environments · Model ReliabilityPython · Go · TypeScript · PostgreSQL
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-lewallen)
   [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anthonylewallen.dev@gmail.com)
@@ -37,7 +37,6 @@
   identified tradeable pairs (LINK-ADA, OP-PEPE) with 20–60 hour mean-reversion half-lives. Z-score signal generation and backtesting. | Python, pandas, statsmodels |
   | [**Crystal Hollows**](https://github.com/lewallenAE/crystal-hollows-demo) | Full 2D action-RPG demo built from scratch with zero imported assets. All rendering is programmatic via
   Godot's `_draw()` API — procedural maps, multi-phase boss AI, custom dialogue system. | Godot 4, GDScript |
-  | [**Java HFT Engine**](https://github.com/LewallenAE/JavaHFT) | High-frequency trading platform — order books, matching engines, low-latency systems design. | Java |
 
   ---
 
@@ -82,12 +81,7 @@
 
   ---
 
-  I don't do tutorials. I ship.
-
-  I use AI as a force multiplier — scaffolding, boilerplate, rubber ducking — but the architecture, the decisions, and the hard parts are mine. The goal is to become the best human
-  programmer I can be.
+ Let's ship!
 
   ---
-
-  **Open to:** Full-Stack Engineering · ML Systems · Security Engineering · Applied Research
   **Email:** anthonylewallen.dev@gmail.com

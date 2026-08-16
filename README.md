@@ -1,73 +1,100 @@
 # Anthony Lewallen
 
-  **Full-Stack Software Engineer | Backend & Distributed Systems • AI Post Training & Evaluation Platforms | Python • Go • C++ • TypeScript • PostgreSQL**
+**Software Engineer | C++ Systems • Backend & Distributed Systems • AI Evaluation Infrastructure**
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anthony-lewallen)
-  [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:anthonylewallen.dev@gmail.com)
+I build backend and systems software with an emphasis on concurrency, networking, storage, resource ownership, reliability, and measured performance.
 
-  I build things end-to-end — ML inference engines in Go, RLHF data pipelines, security tooling, game engines from scratch. I don't stop at the model.
+My work spans modern C++ systems engineering, backend infrastructure, and AI evaluation platforms.
 
-  ---
+---
 
-  ---
+## Featured Systems Engineering
 
-  ## Featured Projects
+### C++ Systems Engineering
 
-  | Project | What It Does | Stack |
-  |---------|--------------|-------|
-  | [**RLHF Eval**](https://github.com/LewallenAE/rlhf-eval) | Data quality pipeline for RLHF training data. Seven detectors flagged 12,693 problematic preference pairs (7.9%) in
-  Anthropic's HH-RLHF dataset. Trained competing reward models on clean vs. unfiltered data. | Python, PyTorch, FastAPI, PostgreSQL, Docker |
-  | [**ScratchLM**](https://github.com/LewallenAE/ScratchLM) | GPT-2 (124M) built from scratch — custom LayerNorm, GELU, causal multi-head self-attention, transformer blocks with
-  pre-norm residual connections. No high-level abstractions. | Python, PyTorch |
-  | [**Crypto Microstructure Research**](https://github.com/LewallenAE/crypto_microstructure_research) | Statistical arbitrage research on crypto markets. ADF cointegration tests
-  identified tradeable pairs (LINK-ADA, OP-PEPE) with 20–60 hour mean-reversion half-lives. Z-score signal generation and backtesting. | Python, pandas, statsmodels |
-  | [**Crystal Hollows**](https://github.com/lewallenAE/crystal-hollows-demo) | Full 2D action-RPG demo built from scratch with zero imported assets. All rendering is programmatic via
-  Godot's `_draw()` API — procedural maps, multi-phase boss AI, custom dialogue system. | Godot 4, GDScript |
+A progressive C++20 systems portfolio focused on increasingly difficult systems boundaries:
 
-  ---
+| Project | Engineering Focus |
+|---|---|
+| **CinderDB** | Concurrent TCP key-value service with POSIX sockets, RAII descriptor ownership, bounded worker execution, WAL persistence, `fsync` durability, restart recovery, and concurrent-client validation |
+| **TaskForge** | Bounded multithreaded task executor with blocking backpressure, condition variables, typed futures, exception propagation, deterministic shutdown, stress testing, and ThreadSanitizer validation |
+| **LogForge** | Streaming log-analysis CLI with typed parsing, composable filtering, malformed-input recovery, deterministic summaries, automated testing, sanitizers, and measured Release performance |
+| **EmberMQ** | Concurrent persistent message broker — **In Progress** — used to deepen blank-editor C++ systems fluency across networking, concurrency, ownership, and persistence |
 
-  ## Open Source
+**Core stack:** C++20, Linux, POSIX, TCP/IP, CMake, GCC, GDB, ASan, UBSan, TSan
 
-  | Project | Description | Link |
-  |---------|-------------|------|
-  | **NLWeb** (Microsoft) | Identified a CI/CD gap and implemented the pipeline — Ruff linting, mypy checks, pytest matrix, Docker validation, Dependabot automation. | [PR
-  #397](https://github.com/nlweb-ai/NLWeb/pull/397) |
+---
 
-  ---
+## AI & Evaluation Infrastructure
 
-  ## Stack
+### [RLHF Eval](https://github.com/LewallenAE/rlhf-eval)
 
-  | | |
-  |--|--|
-  | **Languages** | Go, Python, TypeScript, Java, GDScript, SQL |
-  | **ML** | PyTorch, scikit-learn, sentence-transformers, Hugging Face |
-  | **Backend** | FastAPI, REST, PostgreSQL, SQLite |
-  | **Frontend** | React, Vite, Tailwind CSS |
-  | **Infra** | AWS EC2, Docker, GitHub Actions, Linux |
+Data-quality pipeline for RLHF preference data with multiple anomaly detectors, reward-model comparison, API infrastructure, and PostgreSQL-backed analysis.
 
-  ---
+**Stack:** Python, PyTorch, FastAPI, PostgreSQL, Docker
 
-  ## Education
+### [DV Eval Harness](https://github.com/LewallenAE/dv-eval-harness)
 
-  ### The University of Pennsylvania
-  - **Master of Science in Engineering — Artificial Intelligence** | In Progress
-  
-  - **Master of Applied Science — Software Systems** | In Progress
+Evaluation infrastructure for structured model and agent execution, including typed evaluation schemas, simulation adapters, execution traces, oracle results, and preference-data generation.
 
-  ### American Public University
-  - **Bachelor of Science — Mathematics, Operations Research** | Summa Cum Laude, 2024
+**Stack:** Python, FastAPI, Pydantic, Docker
 
-  ---
+### [ScratchLM](https://github.com/LewallenAE/ScratchLM)
 
-  ## Certifications
+GPT-style transformer implementation built from core PyTorch components, including causal multi-head attention, LayerNorm, GELU, transformer blocks, and autoregressive generation.
 
-  - **ISC2 Certified in Cybersecurity** | Certification Number: 2419262
-  
-  - **CompTIA Security+** | In Progress
+**Stack:** Python, PyTorch
 
-  ---
+---
 
- Let's ship!
+## Open Source
 
-  ---
-  **Email:** anthonylewallen.dev@gmail.com
+### Microsoft NLWeb
+
+Identified a CI/CD gap and implemented automated quality checks including Ruff linting, mypy validation, pytest matrix testing, Docker validation, and Dependabot automation.
+
+[Pull Request #397](https://github.com/nlweb-ai/NLWeb/pull/397)
+
+---
+
+## Engineering Stack
+
+| Area | Technologies |
+|---|---|
+| **Languages** | C++, Python, Go, Java, TypeScript, SQL |
+| **Systems** | Linux, POSIX, TCP/IP, Multithreading, CMake, GDB |
+| **Backend** | FastAPI, REST APIs, PostgreSQL, SQLite |
+| **Concurrency** | Threads, mutexes, condition variables, atomics, worker pools, bounded queues |
+| **Storage** | PostgreSQL, WAL design, persistence, recovery |
+| **AI / ML** | PyTorch, Hugging Face, RLHF, model evaluation |
+| **Infrastructure** | Docker, AWS, GitHub Actions |
+
+---
+
+## Education
+
+### University of Pennsylvania
+
+- **Master of Applied Science in Computer & Information Technology — Software Systems**
+- Expected completion: **December 2026**
+
+### American Public University
+
+- **B.S. Mathematics — Operations Research**
+- Summa Cum Laude, 2024
+
+---
+
+## Academic Direction
+
+Following completion of the MAS-CS, I plan to pursue Ph.D study in computer science / software systems, with particular interest in distributed systems, systems engineering, and related areas.
+
+---
+
+## Certification
+
+- **ISC2 Certified in Cybersecurity**
+
+---
+
+**Email:** [anthonylewallen.dev@gmail.com](mailto:anthonylewallen.dev@gmail.com)

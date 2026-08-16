@@ -87,7 +87,7 @@ Identified a CI/CD gap and implemented automated quality checks including Ruff l
 
 ## Academic Direction
 
-Following completion of the MAS-CS, I plan to pursue Ph.D study in computer science / software systems, with particular interest in distributed systems, systems engineering, and related areas.
+Planning to pursue a Ph.D in Computer Science after completing the UPENN MAS-CS in December 2026, **while continuing to work in industry**, with research interests in distributed systems and software systems.
 
 ---
 

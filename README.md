@@ -16,6 +16,7 @@ A progressive C++20 systems portfolio focused on increasingly difficult systems 
 
 | Project | Engineering Focus |
 |---|---|
+| [**CppShell - In Progress**](https://github.com/LewallenAE/CppForge/tree/main/CppShell) | A C++ shell built from scratch with process execution, PATH resolution, quoting and expansion, redirection, pipelines, background jobs, command completion, persistent history, and Unix-style shell builtins.|
 | [**CinderDB**](https://github.com/LewallenAE/CppForge/tree/main/CinderDB) | Concurrent TCP key-value service with POSIX sockets, RAII descriptor ownership, bounded worker execution, WAL persistence, `fsync` durability, restart recovery, and concurrent-client validation |
 | [**TaskForge**](https://github.com/LewallenAE/CppForge/tree/main/TaskForge)| Bounded multithreaded task executor with blocking backpressure, condition variables, typed futures, exception propagation, deterministic shutdown, stress testing, and ThreadSanitizer validation |
 | [**LogForge**](https://github.com/LewallenAE/CppForge/tree/main/LogForge) | Streaming log-analysis CLI with typed parsing, composable filtering, malformed-input recovery, deterministic summaries, automated testing, sanitizers, and measured Release performance |

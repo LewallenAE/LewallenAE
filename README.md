@@ -17,8 +17,8 @@ A progressive C++20 systems portfolio focused on increasingly difficult systems 
 | Project | Engineering Focus |
 |---|---|
 | [**CinderDB**](https://github.com/LewallenAE/CppForge/tree/main/CinderDB) | Concurrent TCP key-value service with POSIX sockets, RAII descriptor ownership, bounded worker execution, WAL persistence, `fsync` durability, restart recovery, and concurrent-client validation |
-| [**TaskForge**](https://giothub.com/LewallenAE/CppForge/tree/main/TaskForge)| Bounded multithreaded task executor with blocking backpressure, condition variables, typed futures, exception propagation, deterministic shutdown, stress testing, and ThreadSanitizer validation |
-| [**LogForge**](https://giothub.com/LewallenAE/CppForge/tree/main/LogForge) | Streaming log-analysis CLI with typed parsing, composable filtering, malformed-input recovery, deterministic summaries, automated testing, sanitizers, and measured Release performance |
+| [**TaskForge**](https://github.com/LewallenAE/CppForge/tree/main/TaskForge)| Bounded multithreaded task executor with blocking backpressure, condition variables, typed futures, exception propagation, deterministic shutdown, stress testing, and ThreadSanitizer validation |
+| [**LogForge**](https://github.com/LewallenAE/CppForge/tree/main/LogForge) | Streaming log-analysis CLI with typed parsing, composable filtering, malformed-input recovery, deterministic summaries, automated testing, sanitizers, and measured Release performance |
 | **EmberMQ** | Concurrent persistent message broker — **In Progress** — used to deepen blank-editor C++ systems fluency across networking, concurrency, ownership, and persistence |
 
 **Core stack:** C++20, Linux, POSIX, TCP/IP, CMake, GCC, GDB, ASan, UBSan, TSan

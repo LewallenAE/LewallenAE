@@ -76,7 +76,7 @@ Identified a CI/CD gap and implemented automated quality checks including Ruff l
 
 ### University of Pennsylvania
 
-- **Master of Applied Science in Computer & Information Technology — Software Systems**
+- **Master of Applied Science in Computer Science — Software Systems**
 - Expected completion: **December 2026**
 
 ### American Public University
